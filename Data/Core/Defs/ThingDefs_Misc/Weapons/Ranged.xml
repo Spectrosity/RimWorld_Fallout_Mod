@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>357_Magnum_Revolver_Bullet</defName>
+        <label>357 magnum revolver bullet</label>
+        
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>16</damageAmountBase>
+            <stoppingPower>1.1</stoppingPower>
+            <speed>75</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Gun_357_Magnum_Revolver</defName>
+        <label>.357 Magnum revolver</label>
+        <description>A single-action six-shooter revolver chambered in .357 centerfire rounds. It has a fixed cylinder which must be loaded one cartridge at a time.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconSCale>1.4</uiIconSCale>
+        <soundInteract>Interact_Revolver
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li><thingSetMakerTags>
+        
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>1.4</Mass>
+            </AccuracyTouch>0.90</AccuracyTouch>
+            </AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+
+        <weaponTags>
+            </li>SimpleGun</li>
+            <li>Revolver</li>
+        </weaponTags>
+
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Revolver</defaultProjectile>
+                <warmupTime>0.3</warmupTime>
+                <range>25.9</range>
+                <soundCast>Shot_Revolver</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_9mm_Pistol</defName>
+        <label>9mm pistol bullet</label>
+        <graphicData>
+            <texpath>Things/Projectile/Bullet_Small</texpath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <speed>45
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>9mm_Pistol</defName>
+        <label>9mm pistol</label>
+        <description>A run-of-the-mill handgun chambered in 9mm with a thirteen round magazine. It's simple, easy to manufacture, and its ammo is cheap. A must-have for basic defense.
+        
+        <graphicData>
+            </texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texpath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        
+        <uiIconSCale>1.5</uiIconSCale>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        
+        <recipeMaker>
+            <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        
+        </weaponTags>
+            <li>SimpleGun</li>
+        </weaponTags>
+        
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+        </statBases>
+        
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_9mm_PistolM<defaultProjectile>
+                <warmupTime>0.3</warmupTime>
+                <range>25.9<range>
+                <soundCast>Shot_Autopistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>

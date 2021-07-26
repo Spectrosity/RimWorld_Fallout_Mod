@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TraitDef>
+        <defName>Strong</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>strong</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Melee</key>
+                        <value>2</value>
+                    </li>
+                    <li>
+                        <key>Mining</key>
+                        <value>2</value>
+                    </li>
+                    <li>
+                        <key>Construction</key>
+                        <value>1</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Perceptive</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>perceptive</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Shooting</key>
+                        <value>3</value>
+                    </li>
+                    <li>
+                        <key>Artistic</key>
+                        <value>1</value>
+                    </li>
+                    <li>
+                        <key>Intellectual</li>
+                        <value>1</value>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Enduring</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>enduring</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Melee</key>
+                        <value>1</value>
+                    </li>
+                    <li>
+                        <key>Construction</key>
+                        <value>1</value>
+                    </li>
+                    <li>
+                        <key>Mining</key>
+                        <value>3</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Charismatic</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>charismatic</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Social</key>
+                        <value>4</value>
+                    </li>
+                    <li>
+                        <key>Animals>
+                        <value>1</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Intelligent</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>intelligent</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Intellectual</key>
+                        <value>4</value>
+                    </li>
+                    <li>
+                        <key>Medical></key>
+                        <value>1</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Agile</defName>
+        <commonality>0.8</commonality>
+        <statOffsets>
+            <MoveSpeed>0.2</MoveSpeed>
+        </statOffsets>
+        <degreeDatas>
+            <li>
+                <label>agile</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <skillGains>
+                    <li>
+                        <key>Shooting</key>
+                        <value>1</value>
+                    </li>
+                    <li>
+                        <key>Crafting</key>
+                        <value>2</value>
+                    <li>
+                        <key>Melee</key>
+                        <value>1</value>
+                    </li>
+                    <li>
+                        <key>Medical</key>
+                        <value>1</value>
+                    </li>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Lucky</defName>
+        <commonality>0.8</commonality>
+        <degreeDatas>
+            <li>
+                <label>lucky</label>
+                <description>{PAWN_nameDef} is S.P.E.C.I.A.L. ,,,Placeholder,,,</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+</Defs>
